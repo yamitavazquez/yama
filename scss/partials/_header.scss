@@ -1,0 +1,78 @@
+header{
+   height: auto; 
+}
+
+main{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 0;
+}
+
+/*Estilos menú*/
+
+header .navegacion{       
+   padding: 1.8rem;
+   background-color: #fff;
+   width: 100%;
+}
+
+.navegacion ul li{
+   margin: 10px;  
+   justify-content: right;   
+   color: $gris;
+}
+
+.navegacion ul li a {
+   color: $gris;
+   font-size: 2em;   
+   text-align: center;
+   border-radius: 15px;
+   font-family: $fontp;     
+}
+ 
+.navegacion ul li a:hover {
+   color: $gris;
+   font-weight: bold;   
+ }
+
+.dropdown-item{
+   color: $gris;   
+   }
+
+.dropdown-item:hover{
+   color: $gris;
+   font-weight: bold;     
+   background-color: transparent;   
+}
+ 
+#yamas{
+   color: $gris;   
+}
+
+#capa{
+   color: $gris;   
+}
+
+#contacto{
+   color: $gris;   
+}
+
+#servicios{
+   color: $gris;   
+   padding: 5px;
+   font-weight: normal;
+}
+
+#servicios:hover{
+   color: $gris;
+   font-weight: bold;   
+   padding: 5px;
+}
+
+.navegacion div{
+   width: 100%;
+   img a {
+      width: 200px;
+   }
+}

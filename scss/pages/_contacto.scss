@@ -1,0 +1,243 @@
+main{  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    width: 100%;    
+    margin: 0 auto;
+    }
+
+.bannercontacto{
+    display: flex;   
+    flex-wrap: wrap;     
+    justify-content: center;
+    align-items: center;  
+    padding: 10px;   
+    width: 50%;
+    text-align: center;     
+    }
+
+.form-group h3{
+    font-size: 2.2em;    
+    margin: 0 10px;    
+    }
+ 
+form{    
+    padding: 10px;
+    margin: 30px;       
+    line-height: 2em;  
+    justify-content: right;    
+    font-family: 'Lato', sans-serif;
+    }
+    
+ input{
+    border-radius: 10px;
+    margin: 7px;
+    padding: 10px; 
+    width: 100%;      
+    background-color: rgb(250, 250, 250);    
+    font-size: 1.8em;
+    color: #1c1c1c;
+    }
+ 
+textarea{
+    border-radius: 10px;   
+    margin: 7px;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(250, 250, 250);
+    width: 100%;    
+    font-size: 1.8em;
+    color: #1c1c1c;
+    }
+
+#send{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.8em;
+    color: #1c1c1c;
+    }
+
+.foto4{
+    margin: 10px;       
+    justify-content: center;   
+    align-items: center;      
+    width: 100%;    
+    }
+
+ @media only screen and (max-width: 1024px){
+ 
+    .bannercontacto{     
+        padding: 10px;          
+        text-align: center;     
+        width: 100%;
+        }
+
+    .bannercontacto h1{
+        font-size: 3em;
+        h2{
+        font-size: 2.8em;
+        }
+
+    .form-group h3{
+        font-size: 1.8em;    
+        margin: 10px;    
+        }
+    
+    form{    
+        padding: 10px;
+        margin: 20px;        
+        }
+        
+    input{
+        margin: 7px;
+        padding: 10px; 
+        width: 50%;      
+        font-size: 1.8em;      
+        }
+    
+    textarea{
+        border-radius: 10px;   
+        margin: 7px;
+        padding: 10px;
+        width: 50%;    
+        font-size: 1.8em;       
+        }
+
+    #send{
+        font-size: 1.8em;      
+        }
+
+    .foto4{
+        margin: 10px;       
+        justify-content: center;   
+        align-items: center;      
+        width: auto; 
+        }
+    }
+@media only screen and (max-width: 768px){
+           
+            
+      /*Contacto*/
+
+    .bannercontacto{     
+        padding: 10px;          
+        text-align: center;     
+        width: 100%;
+        }
+
+    .bannercontacto h1{
+        font-size: 2.8em;
+        }    
+
+    .bannercontacto h2{
+        font-size: 2.6em;
+        }
+
+    .bannercontacto h3{
+        font-size: 2.2em;
+        width: 50%;       
+        }
+    
+    form{    
+        padding: 10px;
+        margin: 20px;        
+        }
+        
+    input{
+        margin: 7px;
+        padding: 10px; 
+        width: 50%;      
+        font-size: 1.8em;      
+        }
+    
+    textarea{
+        border-radius: 10px;   
+        margin: 7px;
+        padding: 10px;
+        width: 50%;    
+        font-size: 1.8em;       
+        }
+
+    #send{
+        font-size: 1.8em;      
+        }
+
+    .foto4{
+        margin: 10px;       
+        justify-content: center;   
+        align-items: center;      
+        width: auto; 
+        }
+              
+    /*footer*/
+    
+    #social{
+        margin: 5px;       
+        }
+
+    #social h4{        
+        font-size: 2em;
+        margin-top: 5px;
+        }
+
+    .pie{
+        font-size: 1.5em;      
+        }
+
+    #correo{          
+        font-size: 1.5em;     
+        }
+
+    .foto4{
+        margin: 10px;       
+        max-width: 400px;    
+        }
+}
+
+
+@media only screen and (max-width: 768px){
+           
+
+    .bannercontacto{     
+        padding: 10px;          
+        text-align: center;     
+        width: 100%;
+        h1{
+           font-size: 2.8em;
+        h2{
+           font-size: 2.6em;
+        h3{
+          font-size: 2.2em;
+          width: 50%;       
+        }
+    
+    form{    
+        padding: 10px;
+        margin: 20px;        
+        }
+        
+    input{
+        margin: 7px;
+        padding: 10px; 
+        width: 50%;      
+        font-size: 1.8em;      
+        }
+    
+    textarea{
+        border-radius: 10px;   
+        margin: 7px;
+        padding: 10px;
+        width: 50%;    
+        font-size: 1.8em;       
+        }
+  
+    #send{
+        font-size: 1.8em;      
+        } 
+      }
+    
+    @media only screen and (max-width: 576px){             
+   
+     .foto4{
+       margin: auto;       
+        }      
+    }    

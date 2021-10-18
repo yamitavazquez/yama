@@ -1,0 +1,236 @@
+
+
+/*Yamas*/
+
+#seccionyamas{
+    background-color: #f69977;
+    height: auto;  
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 30px;   
+    margin-bottom: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%; 
+   }
+
+#seccion6{
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+.bannerhomeyamas{
+    display: flex;   
+    flex-wrap: wrap;     
+    justify-content: center;
+    align-items: center;  
+    padding: 10px;   
+    text-align: justify;     
+    }
+
+.bannerhomeyamas h1{
+    font-family: 'Aleo', serif;
+    color: #1c1c1c;
+    font-size: 3.6em;
+    padding: 10px;
+    margin-top: 10px;  
+    text-align: center;
+    font-weight: bold;
+    width: 90%;      
+}
+
+.bannerhomeyamas h2{
+    color: #1c1c1c;
+    font-family: 'Aleo', serif;   
+    font-size: 3em;
+    padding: 10px;
+    text-align: center;
+    width: 80%;       
+}
+        
+.bannerhomeyamas__texto{
+    font-size: 2em;
+    color: #1c1c1c;
+    text-align: center;  
+    font-family: 'Lato', sans-serif;
+    justify-content: center;
+    padding: 10px; 
+    margin: 10px;       
+    }
+
+.bannerhomeyamas__texto__button{           
+    font-size: 1.8em;    
+    padding: 15px;
+    margin: 10px;
+    color: #fff;   
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    background-color: #f69977;
+    width: 80%;
+    }
+
+.bannerhomeyamas__texto__button:hover{
+    color: #1c1c1c;    
+    font-weight: bold;
+    border: 1px solid #1c1c1c;
+    }
+
+.bannerhomeyamas__texto__titulo{
+    font-size: 3.2em;
+    width: 50%;
+    text-align: center;
+    margin-top: 55px;
+    color: #fff;     
+    font-family: 'Lato', sans-serif;    
+    }
+
+.bannerhomeyamas__texto__titulo__p{
+    color: #fff;
+    font-style: italic;
+    text-align: center;
+    font-size: 2.2em;
+    }
+
+.foto2{
+    margin: 10px;       
+    justify-content: center;
+    width: auto; 
+    align-items: center;       
+    }
+
+/*@media*/
+
+@media only screen and (max-width: 1024px){
+
+    #seccionyamas{       
+        height: auto; 
+       }
+    
+    .bannerhomeyamas{
+        width: auto;    
+        }
+    
+    .bannerhomeyamas h1{        
+        font-size: 3.4em;       
+    }
+    
+    .bannerhomeyamas h2{        
+        font-size: 2.8em;
+        padding: 10px;
+        width: 80%;       
+    }
+            
+    .bannerhomeyamas__texto{
+        font-size: 2em;       
+        padding: 10px; 
+        margin: 10px;       
+        }
+    
+    .bannerhomeyamas__texto__button{           
+        font-size: 1.8em;    
+        padding: 15px;
+        margin: 10px;       
+        width: 80%;
+        }    
+    
+    .bannerhomeyamas__texto__titulo{
+        font-size: 3em;
+        width: 50%;       
+        margin-top: 55px;         
+        }
+    
+    .bannerhomeyamas__texto__titulo__p{        
+        font-size: 2em;
+        }
+    
+    .foto2{
+        margin: 10px;     
+        width: auto;              
+        }    
+
+    #principal {
+        font-size: 1rem;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat (3, 40rem);
+        justify-content: center;
+    }
+
+    #principal .cards{
+        text-align: center;      
+        justify-content: center;              
+    }   
+        
+    .bannerhome3__texto{
+        font-size: 1.7em;          
+    }
+
+    #testimonios{
+        margin-top: 10px;
+        margin-bottom: 10px;                     
+        }
+
+@media only screen and (max-width: 768px){
+           
+    .bannerhome3{
+        padding: 5px;    
+        margin: auto;
+        width: auto;
+    }
+
+    .bannerhome3__texto{
+        font-size: 1.6em;       
+    }
+   
+  @media only screen and (max-width: 576px){
+   
+    #seccion6{     
+        margin: 10px;
+        width: auto;
+        }
+        
+    .bannerhomeyamas{    
+        width: auto;       
+        }
+
+    .bannerhomeyamas h1{       
+        font-size: 2.8em;
+        padding: 10px;              
+      }
+
+    .bannerhomeyamas h2{
+        font-size: 2.8em;
+        padding: 10px;   
+      }
+            
+    .bannerhomeyamas__texto{
+        font-size: 1.8em;  
+        text-align: justify;        
+        justify-content: center;
+        padding: 10px;
+        margin: 10px;    
+        }
+
+    .bannerhomeyamas__texto__button{    
+        width: 100%;
+        }
+
+    .bannerhomeyamas__texto__titulo{
+        font-size: 2em;   
+        }
+        
+    .fotoyamas{
+        margin: auto;       
+        max-width: 400px;   
+        }
+
+    .textofrases{
+        font-size: 2.4em; 
+        padding: 15px;
+        margin: 5px; 
+        }
+    }
+    

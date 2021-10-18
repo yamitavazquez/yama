@@ -1,0 +1,314 @@
+#seccionserv{
+    background-color: $coral;   
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%; 
+    height: auto;
+    h1{
+        font-family: $fontt;
+        color: #fff;
+        font-size: 3.8em;
+        padding: 10px;
+        text-align: center;
+        font-weight: bold;
+        width: 100%;  
+        margin-top: 10px; 
+    h2{
+        font-size: 3.4em;
+        text-align: center;
+        justify-content: center;
+    }
+
+.fotoserv{
+    margin: 15px;       
+    justify-content: center;   
+    align-items: center;       
+    width: auto;
+    }
+
+.servicios__texto{
+    font-size: 2.4em;
+    color: $gris;
+    text-align: center;  
+    font-family: $fontp;
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;         
+    }
+
+.seccionservicios{
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px auto;
+    width: 350px;
+    justify-content: center;    
+    display: grid;
+    border: 1px solid $coral;
+    border-radius: 15%;
+    h3{    
+        font-weight: bold;
+        font-size: 2.6em;
+        text-align: center;
+        align-items: center;
+        margin: 5px;
+}
+
+.seccionservicios__texto{
+    font-size: 1.8em;
+    color: $gris;
+    text-align: justify;  
+    font-family: $fontp;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    display: grid;    
+    text-align: center;    
+}
+
+.seccionservicios__texto__button{
+    font-size: 1.8em;
+    padding: 15px;
+    color: #fff;
+    border-radius: 15px;
+    text-align: center;
+    font-family: $fontp;
+    justify-content: center;
+    margin: 15px;
+    display: flex;   
+    background-color: $coral;
+    }
+
+.seccionservicios__texto__button:hover{
+    color: $gris;
+    transition: 1.5s;
+    border: 1px solid $gris;
+    }
+
+#asesoriastipos h3{
+    font-weight: bold;
+    font-size: 2.6em;
+    text-align: center;
+    align-items: center;
+    margin: 5px;
+    }
+
+.bannerasesoria{
+    display: flex;   
+    flex-wrap: wrap;     
+    justify-content: center;
+    align-items: center;      
+    width: 50%;
+    text-align: justify;     
+    }
+
+.bannerasesoria h2{
+    font-family: $fontp;
+    font-weight: bold;
+    font-size: 3.4em;    
+    padding: 10px;           
+    text-align: center; 
+    width: 70%;   
+    color: $gris;
+    margin-top: 20px;
+    }
+
+.bannerasesoria__texto{
+    font-size: 2.4em;
+    color: #fff;
+    text-align: center;  
+    font-family: $fontp;
+    justify-content: center;
+    padding: 10px;
+    width: 80%;
+    background-color: $coral;    
+    }
+
+/*@media*/
+
+@media only screen and (max-width: 1024px){
+   
+   #seccionserv{
+       padding: 10px;
+       margin: 10px;    
+   }    
+
+   .servicios__texto{
+       font-size: 2em;
+       padding: 10px;
+       margin: 10px;     
+       }
+
+   .fotoserv{
+       margin: 10px;       
+       max-width: 400px; 
+       align-items: center;       
+       }
+
+   #seccionserv h1{
+       font-size: 3.4em;
+       padding: 10px;
+       margin-top: 20px;          
+       width: 100%;   
+       }
+
+   #seccionserv h2{
+       font-size: 2.6em;
+       }
+
+   .seccionservicios{
+       padding: 10px;       
+       margin: 10px auto;
+       width: 350px;
+       justify-content: center;    
+       display: grid;
+   }
+
+   .seccionservicios h3{
+       font-size: 2.8em;
+       font-weight: bold;
+   }
+
+   .seccionservicios__texto{
+       font-size: 1.8em;       
+       padding: 8px;
+       display: grid;    
+       text-align: justify;    
+   }
+
+   .seccionservicios__texto__button{
+       font-size: 1.8em;
+       padding: 15px;      
+       margin: 15px;  
+       }
+
+   .seccionservicios__texto__button:hover{
+       font-weight: bold;
+       color: #1c1c1c;
+       transition: 1.5s;
+       }
+
+   .bannerasesoria{
+       justify-content: center;
+       align-items: center;  
+       padding: 10px;   
+       width: 50%;
+       text-align: justify;     
+       }
+
+   .bannerasesoria h2{  
+       font-size: 3.2em;    
+       padding: 20px;           
+       text-align: center; 
+       width: 100%;           
+       }
+
+   .bannerasesoria__texto{
+       font-size: 2.4em;
+       color: #1c1c1c;
+       text-align: center;  
+       font-family: 'Lato', sans-serif;
+       justify-content: center;
+       padding: 10px;
+       width: 80%;
+       }
+
+@media only screen and (max-width: 768px){
+                   
+    #seccionserv{
+        padding: 10px;
+        margin: 10px;        
+        width: 100%;    
+        }
+
+    .fotoserv{
+        margin: 10px;       
+        justify-content: center;
+        width: 100%; 
+        align-items: center;       
+        }
+
+    .servicios__texto{
+        font-size: 2em;        
+        padding: 10px;     
+        margin-bottom: 10px;    
+        }
+
+    #seccionserv h1{      
+        font-size: 3em;
+        padding: 10px;   
+        }
+
+    #seccionserv h2{
+        font-size: 2.6em;        
+        }
+    }
+@media only screen and (max-width: 576px){
+             
+    #seccionserv{
+        padding: 10px;
+        margin: 10px;        
+        width: 100%;    
+        h1{
+            font-size: 2.8em;
+            padding: 10px;        
+            margin-top: 10px; 
+        h2{
+            font-size: 2.6em;    
+             text-align: center;    
+            }
+
+    .fotoserv{         
+        justify-content: center;       
+        align-items: center;   
+        max-width: 300px;             
+        }
+
+    .servicios__texto{
+        font-size: 2em;      
+        margin: 10px;         
+        }
+
+    .seccionservicios{
+        padding: 10px;
+        margin: 10px auto;       
+        justify-content: center;            
+        h3{        
+            font-size: 2.2em;
+            text-align: center;
+            align-items: center;
+          }
+
+    .seccionservicios__texto{
+        font-size: 1.8em;       
+        text-align: center;      
+        justify-content: center;
+        padding: 10px;
+        margin: 10px;       
+        }
+
+    .seccionservicios__texto__button{
+        font-size: 1.7em;
+        padding: 10px;    
+        margin: 10px;    
+        }
+
+    .bannerasesoria{       
+        justify-content: center;
+        align-items: center;      
+        width: 100%;
+        text-align: center;           
+        h2{   
+            font-size: 2.6em;    
+            padding: 10px;        
+            width: 70%;      
+            margin: 10px;
+        }
+
+    .bannerasesoria__texto{
+        font-size: 1.8em;     
+        padding: 10px;    
+        }
+    }   

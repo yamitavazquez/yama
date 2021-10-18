@@ -1,0 +1,159 @@
+/*variables*/
+@import "./partials/variables";
+
+/*globals*/
+@import "./globals";
+
+/*partials*/
+@import "./partials/header";
+@import "./partials/footer";
+
+/*pages*/
+@import "./pages/yamas";
+@import "./pages/capacitacion";
+@import "./pages/servicios";
+@import "./pages/contacto";
+
+/*Imports*/
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,300;0,400;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+
+/*font-family: 'Lato', sans-serif; párrafos*/
+/*font-family: 'Aleo', serif; títulos*/
+
+/*Normalize*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, ol{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*Estilos a etiquetas*/
+
+html{
+   font-size: 62.5%;
+ }
+
+section{
+    margin: 10px;
+ }
+
+/*Estilos header*/
+
+header{
+    height: auto; 
+ }
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+  /*Estilos títulos y textos*/
+
+h1{
+    font-family: $fontt;
+    color: $gris;
+    font-size: 3.8em;
+    padding: 10px;
+    margin-top: 10px;  
+    text-align: center;
+    font-weight: bold;
+    width: 100%;   
+    }
+
+h2{
+    font-family: $fontt;
+    font-weight: bolder;
+    font-size: 3.2em;    
+    padding: 10px;           
+    text-align: center; 
+    width: 100%;   
+    color: $gris;
+    }
+
+h3{
+    font-family: $fontt;
+    color: $gris;
+    font-size: 2.6em; 
+    padding: 7px;
+    margin-bottom: 10px;
+    text-align: center;    
+    }
+
+h4{
+    font-family: $fontp;
+    color: $grisclaro;
+    padding: 7px;   
+    font-size: 1.8em;
+    align-items: left;
+    justify-content: left;
+    }
+
+.textofondo{
+    background: linear-gradient(0deg, #f69977 20%, transparent 60%);
+    background-color: transparent !important;
+    }
+
+.fondowhite{
+    background: linear-gradient(0deg, #fff 20%, transparent 50%);
+    background-color: transparent !important;
+    }
+
+.fondored{
+    background: linear-gradient(0deg, #ff1a0a 20%, transparent 50%);
+    background-color: transparent !important;
+    }
+
+.fondoyellow{
+    background: linear-gradient(0deg, #e6b333 20%, transparent 50%);
+    background-color: transparent !important;
+    }
+
+.textored{
+   color: $red;   
+   font-weight: bold;
+   font-style: italic;
+    }
+
+.textogrey{
+   color: $gris;   
+   font-weight: bold;
+   font-style: italic;
+    }
+
+.textosm{
+    font-size: 0.8em;
+    font-style: normal;
+    font-weight: normal;
+    font-family: $fontp; 
+}
+
+.textom{
+    font-size: 1.4em;    
+    font-family: $fontp;
+    text-align: left;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.textoc{
+    font-size: 1.4em;    
+    font-family: $fontp;
+    text-align: left;
+    align-items: center;   
+}
+
