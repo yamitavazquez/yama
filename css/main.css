@@ -244,7 +244,6 @@ h4{
     justify-content: center;
     align-items: center;  
     padding: 10px;      
-    text-align: justify;     
     }
 
 .bannerhome h1{
@@ -444,9 +443,8 @@ h4{
 
 #seccion5{
     background-color: #f69977;
-    height: auto;     
-    display: flex;  
-}
+    justify-content: center;
+   }
 
 .bannerhome5{
     display: flex;
@@ -462,7 +460,7 @@ h4{
 }
 
 .bannerhome5__texto{
-    font-size: 2.4em;
+    font-size: 2.2em;
     color: #fff;
     font-family: 'Lato', sans-serif;
     justify-content: center;
@@ -488,6 +486,13 @@ h4{
     border: solid 1px #1c1c1c;   
     font-weight: bold;   
     }
+
+.fotoinsta{
+    margin: 10px;       
+    justify-content: center;
+    align-items: center;     
+    width: 100%;        
+    }      
 
 /*Yamas*/
 
@@ -1069,7 +1074,8 @@ textarea{
     .bannerhome h1{     
         font-size: 3.2em;
         padding: 10px;        
-        margin-top: 10px;     
+        margin-top: 10px;    
+        text-align: center; 
         }
     
     .bannerhome h2{
@@ -1208,7 +1214,7 @@ textarea{
     .fotoinsta{
         margin: 10px;       
         justify-content: center;
-        max-width: 400px; 
+        max-width: 350px; 
         align-items: center;             
     }      
 
@@ -1278,6 +1284,30 @@ textarea{
         margin-top: 10px;
         margin-bottom: 10px;                     
         }
+
+    /*Capacitación*/
+
+.fotocapa{
+    margin: 10px;       
+    justify-content: center;
+    width: auto; 
+    align-items: center;       
+    }
+
+.capacitacion h1{      
+    font-size: 3.6em;     
+    }
+
+.capacitacion__texto{
+    font-size: 2.4em;
+    color: #1c1c1c;
+    text-align: center;  
+    font-family: 'Lato', sans-serif;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;     
+    width: 80%;
+    }
 
     /*servicios*/
         
@@ -1556,7 +1586,7 @@ textarea{
         }
 
     .textofrases{
-        font-size: 2.2em; 
+        font-size: 2em; 
         padding: 40px 80px;
         margin: 10px;           
         }
@@ -1572,23 +1602,22 @@ textarea{
         }
 
     .bannerhome5 h2{
-        font-size: 3em;
-        width: 100%;
-        padding-top: 30px;
+        font-size: 2.6em;
+        padding-top: 30px;    
       }
 
     .bannerhome5__texto{ 
         font-size: 2em;
-        margin: 10px;        
+        margin: 10px;   
+        width: 50%;     
         }
             
     .bannerhome5__texto__button{          
         margin: 15px;   
-        width: 80%;
         }    
 
     .fotoinsta{
-        max-width: 500px; 
+        max-width: 400px; 
         justify-content: center;
         align-items: center;   
        }  
@@ -1778,6 +1807,7 @@ textarea{
        
     .bannerhome h1{
         font-size: 3em;
+        text-align: center;
     }
 
     .bannerhome h2{
@@ -1832,8 +1862,7 @@ textarea{
         }
 
     .bannerhome5{ 
-        padding: 10px;            
-        width: 100%;          
+        padding: 10px;                  
         }
     
     #seccion5{
@@ -1852,7 +1881,6 @@ textarea{
     .bannerhome5__texto__button{  
         font-size: 1.7em;        
         margin: 10px;   
-        width: 75%;
         }    
 
     .fotoinsta{
@@ -1913,11 +1941,16 @@ textarea{
         grid-template-rows: repeat (3, 40rem);
         }
     
-    .bannercapacitacion{         
-        height: 40vh;         
-        width: auto;               
-        background-size: auto;
-        background-image: url("../public/bannercapafinal.jpg");        
+    .bannercapacitacion{   
+        height: 40vh;
+        background-size: 550px;
+        background-image: url("../public/bannercapafinal.jpg");     
+        background-attachment: fixed; 
+        background-repeat: no-repeat;  
+        }
+
+    .fotocapa{        
+        max-width: 350px;    
         }
             
     /*servicios*/        
@@ -2014,11 +2047,11 @@ textarea{
         }
 
     .pie__redes__mapa{        
-        padding: 5px;     
-        font-size: 1.4em; 
+        padding: 2px;     
+        font-size: 1.2em; 
         border: 1px solid #fff;   
         border-radius: 10%;   
-        margin: 5px;      
+        margin: 2px;      
     }
     .pie__redes__links img{   
         max-width: 30px;
