@@ -42,22 +42,16 @@ main .principal{
     }
 
 .capacitacion h1{
-    color: #fff;
-    font-family: $fontt;   
-    font-size: 3.8em;
+    color: #fff;     
     padding: 10px;
     margin-top: 30px;  
-    text-align: center;
-    font-weight: bold;
+    text-align: center;    
     width: 80%;       
+    h3{
+     font-size: 2.4em;
+     width: 80%;
     }
-
-.capacitacion h3{
-    font-weight: bold;
-    font-family: $fontt;
-    font-size: 2.4em;
-    width: 80%;
-    }
+}
 
 .capacitacion__texto{
     font-size: 2.4em;
@@ -105,10 +99,6 @@ main .principal{
     display: flex;
     border: 2px solid $coral;
     border-radius: 15%;
-    }
-
-.cursos h3{
-    font-weight: bold;
     }
 
 .cursos__texto{
@@ -231,15 +221,13 @@ main .principal{
 
     .capacitacion h1{          
         font-size: 3em;               
-        }
-
-    .capacitacion h2{
+       h2{
         font-size: 2.6;
-    }
-
-    .capacitacion h3{
+       h3{
         font-size: 2.4em;
         }
+    }
+}
 
     .cursos__texto{
         font-size: 1.8em;        
@@ -247,7 +235,7 @@ main .principal{
   
     .bannercapacitacion__texto__button{           
         font-size: 1.8em;            
-        }
+        }  
     }
 
 @media only screen and (max-width: 576px){
@@ -257,11 +245,9 @@ main .principal{
         grid-template-columns: 1fr;
         grid-template-rows: repeat (3, 40rem);
         }
-    
-    .bannercapacitacion{         
-        height: auto;         
-        width: auto;               
-        background-size: auto;
-        background-image: url("../public/bannercapafinal.jpg");        
-        }
+
+        .bannercapacitacion{      
+            height: 50vh;
+            background-attachment: scroll;
+           }   
     }

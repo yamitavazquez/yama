@@ -20,52 +20,51 @@ header .navegacion{
 .navegacion ul li{
    margin: 10px;  
    justify-content: right;   
-   color: $gris;
+   color: #1c1c1c;
 }
 
 .navegacion ul li a {
-   color: $gris;
+   color: #1c1c1c;
    font-size: 2em;   
    text-align: center;
    border-radius: 15px;
-   font-family: $fontp;     
+   font-family: 'Lato', sans-serif;     
 }
  
 .navegacion ul li a:hover {
-   color: $gris;
+   color: #1c1c1c;
    font-weight: bold;   
  }
 
 .dropdown-item{
-   color: $gris;   
+   color: #1c1c1c;   
    }
 
 .dropdown-item:hover{
-   color: $gris;
+   color: #1c1c1c;
    font-weight: bold;     
    background-color: transparent;   
 }
  
 #yamas{
-   color: $gris;   
+   color: #1c1c1c;   
 }
 
 #capa{
-   color: $gris;   
+   color: #1c1c1c;   
 }
 
 #contacto{
-   color: $gris;   
+   color: #1c1c1c;   
 }
 
 #servicios{
-   color: $gris;   
+   color: #1c1c1c;   
    padding: 5px;
-   font-weight: normal;
 }
 
 #servicios:hover{
-   color: $gris;
+   color: #1c1c1c;
    font-weight: bold;   
    padding: 5px;
 }

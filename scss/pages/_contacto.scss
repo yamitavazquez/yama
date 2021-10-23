@@ -26,7 +26,7 @@ form{
     margin: 30px;       
     line-height: 2em;  
     justify-content: right;    
-    font-family: 'Lato', sans-serif;
+    font-family: $fontp;
     }
     
  input{
@@ -36,24 +36,24 @@ form{
     width: 100%;      
     background-color: rgb(250, 250, 250);    
     font-size: 1.8em;
-    color: #1c1c1c;
+    color: $gris;
     }
  
 textarea{
     border-radius: 10px;   
     margin: 7px;
     padding: 10px;
-    font-family: 'Lato', sans-serif;
+    font-family: $fontp;
     background-color: rgb(250, 250, 250);
     width: 100%;    
     font-size: 1.8em;
-    color: #1c1c1c;
+    color: $gris;
     }
 
 #send{
-    font-family: 'Lato', sans-serif;
+    font-family: fontp;
     font-size: 1.8em;
-    color: #1c1c1c;
+    color: $gris;
     }
 
 .foto4{
@@ -69,13 +69,13 @@ textarea{
         padding: 10px;          
         text-align: center;     
         width: 100%;
-        }
-
-    .bannercontacto h1{
-        font-size: 3em;
+        h1{
+         font-size: 3em;
         h2{
-        font-size: 2.8em;
+         font-size: 2.8em;
         }
+     }
+  }
 
     .form-group h3{
         font-size: 1.8em;    
@@ -113,29 +113,24 @@ textarea{
         width: auto; 
         }
     }
+
 @media only screen and (max-width: 768px){
            
-            
-      /*Contacto*/
-
     .bannercontacto{     
         padding: 10px;          
         text-align: center;     
         width: 100%;
+        h1{
+          font-size: 2.8em;
+        h2{
+          font-size: 2.6em;
+        h3{
+          font-size: 2.2em;
+          width: 50%;       
+            }
+          }
         }
-
-    .bannercontacto h1{
-        font-size: 2.8em;
-        }    
-
-    .bannercontacto h2{
-        font-size: 2.6em;
-        }
-
-    .bannercontacto h3{
-        font-size: 2.2em;
-        width: 50%;       
-        }
+    }
     
     form{    
         padding: 10px;
@@ -167,36 +162,10 @@ textarea{
         align-items: center;      
         width: auto; 
         }
+    }
               
-    /*footer*/
-    
-    #social{
-        margin: 5px;       
-        }
-
-    #social h4{        
-        font-size: 2em;
-        margin-top: 5px;
-        }
-
-    .pie{
-        font-size: 1.5em;      
-        }
-
-    #correo{          
-        font-size: 1.5em;     
-        }
-
-    .foto4{
-        margin: 10px;       
-        max-width: 400px;    
-        }
-}
-
-
 @media only screen and (max-width: 768px){
            
-
     .bannercontacto{     
         padding: 10px;          
         text-align: center;     
@@ -206,9 +175,12 @@ textarea{
         h2{
            font-size: 2.6em;
         h3{
-          font-size: 2.2em;
-          width: 50%;       
-        }
+           font-size: 2.2em;
+           width: 50%;       
+         }
+       }   
+     }
+   }
     
     form{    
         padding: 10px;
@@ -238,6 +210,7 @@ textarea{
     @media only screen and (max-width: 576px){             
    
      .foto4{
-       margin: auto;       
-        }      
-    }    
+       margin: auto; 
+     }
+    }       
+    

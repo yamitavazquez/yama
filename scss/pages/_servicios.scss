@@ -8,19 +8,18 @@
     width: 100%; 
     height: auto;
     h1{
-        font-family: $fontt;
-        color: #fff;
-        font-size: 3.8em;
+        color: #fff;        
         padding: 10px;
         text-align: center;
         font-weight: bold;
         width: 100%;  
         margin-top: 10px; 
     h2{
-        font-size: 3.4em;
-        text-align: center;
+        font-size: 3.4em;       
         justify-content: center;
-    }
+        }
+     }   
+  }
 
 .fotoserv{
     margin: 15px;       
@@ -49,12 +48,12 @@
     border: 1px solid $coral;
     border-radius: 15%;
     h3{    
-        font-weight: bold;
         font-size: 2.6em;
         text-align: center;
         align-items: center;
         margin: 5px;
-}
+        }
+    }
 
 .seccionservicios__texto{
     font-size: 1.8em;
@@ -66,7 +65,7 @@
     margin: 10px;
     display: grid;    
     text-align: center;    
-}
+ }
 
 .seccionservicios__texto__button{
     font-size: 1.8em;
@@ -102,17 +101,16 @@
     align-items: center;      
     width: 50%;
     text-align: justify;     
-    }
-
-.bannerasesoria h2{
-    font-family: $fontp;
-    font-weight: bold;
-    font-size: 3.4em;    
-    padding: 10px;           
-    text-align: center; 
-    width: 70%;   
-    color: $gris;
-    margin-top: 20px;
+    h2{
+        font-family: $fontp;
+        font-weight: bold;
+        font-size: 3.4em;    
+        padding: 10px;           
+        text-align: center; 
+        width: 70%;   
+        color: $gris;
+        margin-top: 20px;
+        }
     }
 
 .bannerasesoria__texto{
@@ -128,12 +126,11 @@
 
 /*@media*/
 
-@media only screen and (max-width: 1024px){
-   
+@media only screen and (max-width: 1024px){   
    #seccionserv{
        padding: 10px;
        margin: 10px;    
-   }    
+     }    
 
    .servicios__texto{
        font-size: 2em;
@@ -152,11 +149,10 @@
        padding: 10px;
        margin-top: 20px;          
        width: 100%;   
+       h2{
+        font-size: 2.6em;
        }
-
-   #seccionserv h2{
-       font-size: 2.6em;
-       }
+    }
 
    .seccionservicios{
        padding: 10px;       
@@ -164,19 +160,18 @@
        width: 350px;
        justify-content: center;    
        display: grid;
-   }
-
-   .seccionservicios h3{
-       font-size: 2.8em;
-       font-weight: bold;
-   }
+       h3{
+        font-size: 2.8em;
+        font-weight: bold;
+        }
+    }
 
    .seccionservicios__texto{
        font-size: 1.8em;       
        padding: 8px;
        display: grid;    
        text-align: justify;    
-   }
+        }
 
    .seccionservicios__texto__button{
        font-size: 1.8em;
@@ -196,30 +191,27 @@
        padding: 10px;   
        width: 50%;
        text-align: justify;     
+       h2{  
+        font-size: 3.2em;    
+        padding: 20px;           
+        text-align: center; 
+        width: 100%;           
        }
-
-   .bannerasesoria h2{  
-       font-size: 3.2em;    
-       padding: 20px;           
-       text-align: center; 
-       width: 100%;           
-       }
+    }
 
    .bannerasesoria__texto{
        font-size: 2.4em;
-       color: #1c1c1c;
+       color: $gris;
        text-align: center;  
-       font-family: 'Lato', sans-serif;
+       font-family: $fontp;
        justify-content: center;
        padding: 10px;
        width: 80%;
-       }
+       } 
+    }
 
-@media only screen and (max-width: 768px){
-                   
+@media only screen and (max-width: 768px){                   
     #seccionserv{
-        padding: 10px;
-        margin: 10px;        
         width: 100%;    
         }
 
@@ -239,14 +231,13 @@
     #seccionserv h1{      
         font-size: 3em;
         padding: 10px;   
-        }
-
-    #seccionserv h2{
+        h2{
         font-size: 2.6em;        
         }
-    }
-@media only screen and (max-width: 576px){
-             
+     }
+  }
+
+@media only screen and (max-width: 576px){             
     #seccionserv{
         padding: 10px;
         margin: 10px;        
@@ -259,11 +250,14 @@
             font-size: 2.6em;    
              text-align: center;    
             }
+        }
+    }
 
     .fotoserv{         
         justify-content: center;       
         align-items: center;   
-        max-width: 300px;             
+        max-width: 350px;    
+        margin-left: 10px;         
         }
 
     .servicios__texto{
@@ -280,6 +274,7 @@
             text-align: center;
             align-items: center;
           }
+        }
 
     .seccionservicios__texto{
         font-size: 1.8em;       
@@ -305,10 +300,11 @@
             padding: 10px;        
             width: 70%;      
             margin: 10px;
-        }
+            }
+        }   
 
     .bannerasesoria__texto{
         font-size: 1.8em;     
         padding: 10px;    
-        }
-    }   
+    }
+}

@@ -32,7 +32,7 @@
     }
 
 #correo:hover{
-    color: $gris;
+    color: #1c1c1c;
     }
 
 .pie__redes{     
@@ -50,8 +50,8 @@
    }
 
 .pie__redes__mapa:hover{    
-    color: $gris;    
-    border: 1px solid $gris;         
+    color: #1c1c1c;    
+    border: 1px solid #1c1c1c;         
     }
 
 .pie__redes__links{   
@@ -60,18 +60,18 @@
     }
 
 .pie__redes__links:hover{    
-    color: $gris;           
+    color: #1c1c1c;           
     opacity: 0.5;
     }
 
  @media only screen and (max-width: 1024px){
-
     #social{
         margin: 5px;     
         height: auto;  
         h4{     
          font-size: 2.2em;        
         }
+    }
 
     .pie{
         font-size: 1.5em;      
@@ -90,48 +90,49 @@
 
 @media only screen and (max-width: 768px){
 
-#social{
-    margin: 5px;       
-    h4{        
-    font-size: 2em;
-    margin-top: 5px;
-    }
-
-.pie{
-    font-size: 1.5em;      
-    }
-
-#correo{          
-    font-size: 1.5em;     
-    }
-}
-
-@media only screen and (max-width: 576px){
-         
-#social{
-    margin: 5px;     
-    height: auto;  
-    h4{        
-        font-size: 1.8em;
+    #social{
+        margin: 5px;       
+        h4{        
+        font-size: 2em;
         margin-top: 5px;
     }
-
-.pie{
-    font-size: 1.2em;      
     }
 
-#correo{          
-    font-size: 1.4em;     
-    }
+    .pie{
+        font-size: 1.5em;      
+        }
 
-.pie__redes__mapa{        
-    padding: 5px;     
-    font-size: 1.4em; 
-    border: 1px solid #fff;   
-    border-radius: 10%;   
-    margin: 5px;      
-}
-.pie__redes__links img{   
-    max-width: 30px;
-}
-}
+    #correo{          
+        font-size: 1.5em;     
+        }
+    }
+@media only screen and (max-width: 576px){
+            
+        #social{
+            margin: 5px;     
+            height: auto;  
+            h4{        
+                font-size: 1.8em;
+                margin-top: 5px;
+            }
+        }
+        
+        .pie{
+            font-size: 1.2em;      
+            }
+        
+        #correo{          
+            font-size: 1.4em;     
+            }
+        
+        .pie__redes__mapa{        
+            padding: 5px;     
+            font-size: 1.4em; 
+            border: 1px solid #fff;   
+            border-radius: 10%;   
+            margin: 5px;      
+        }
+        .pie__redes__links img{   
+            max-width: 30px;
+        } 
+    }    

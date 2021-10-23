@@ -1,9 +1,5 @@
-
-
-/*Yamas*/
-
 #seccionyamas{
-    background-color: #f69977;
+    background-color: $coral;
     height: auto;  
     display: flex;
     flex-wrap: wrap;
@@ -29,33 +25,31 @@
     align-items: center;  
     padding: 10px;   
     text-align: justify;     
-    }
-
-.bannerhomeyamas h1{
-    font-family: 'Aleo', serif;
-    color: #1c1c1c;
+   h1{
+    font-family: $fontt;
+    color: $gris;
     font-size: 3.6em;
     padding: 10px;
     margin-top: 10px;  
     text-align: center;
     font-weight: bold;
     width: 90%;      
-}
-
-.bannerhomeyamas h2{
-    color: #1c1c1c;
-    font-family: 'Aleo', serif;   
-    font-size: 3em;
-    padding: 10px;
-    text-align: center;
-    width: 80%;       
+    h2{
+     color: $gris;
+     font-family: $fontt;   
+     font-size: 3em;
+     padding: 10px;
+     text-align: center;
+     width: 80%;       
+    }
+   }
 }
         
 .bannerhomeyamas__texto{
     font-size: 2em;
-    color: #1c1c1c;
+    color: $gris;
     text-align: center;  
-    font-family: 'Lato', sans-serif;
+    font-family: $fontp;
     justify-content: center;
     padding: 10px; 
     margin: 10px;       
@@ -68,15 +62,15 @@
     color: #fff;   
     border-radius: 15px;
     text-align: center;
-    font-family: 'Lato', sans-serif;
-    background-color: #f69977;
+    font-family: $fontp;
+    background-color: $coral;
     width: 80%;
     }
 
 .bannerhomeyamas__texto__button:hover{
-    color: #1c1c1c;    
+    color: $gris;    
     font-weight: bold;
-    border: 1px solid #1c1c1c;
+    border: 1px solid $gris;
     }
 
 .bannerhomeyamas__texto__titulo{
@@ -85,14 +79,13 @@
     text-align: center;
     margin-top: 55px;
     color: #fff;     
-    font-family: 'Lato', sans-serif;    
-    }
-
-.bannerhomeyamas__texto__titulo__p{
-    color: #fff;
-    font-style: italic;
-    text-align: center;
-    font-size: 2.2em;
+    font-family: $fontp;    
+    p{
+      color: #fff;
+      font-style: italic;
+      text-align: center;
+      font-size: 2.2em;
+        }
     }
 
 .foto2{
@@ -102,7 +95,17 @@
     align-items: center;       
     }
 
-/*@media*/
+.textofrases{
+    font-family: $fontt;
+    color: #fff;
+    font-size: 2.6em; 
+    padding: 40px 180px;
+    margin: 10px;   
+    text-align: center;    
+    font-style: italic;    
+    background-color: $coral;
+    border-radius: 15px;
+    }
 
 @media only screen and (max-width: 1024px){
 
@@ -112,17 +115,15 @@
     
     .bannerhomeyamas{
         width: auto;    
-        }
-    
-    .bannerhomeyamas h1{        
+        h1{        
         font-size: 3.4em;       
-    }
-    
-    .bannerhomeyamas h2{        
-        font-size: 2.8em;
-        padding: 10px;
-        width: 80%;       
-    }
+        h2{        
+            font-size: 2.8em;
+            padding: 10px;
+            width: 80%;       
+          }
+        }
+      }
             
     .bannerhomeyamas__texto{
         font-size: 2em;       
@@ -141,11 +142,10 @@
         font-size: 3em;
         width: 50%;       
         margin-top: 55px;         
+        p{        
+         font-size: 2em;
         }
-    
-    .bannerhomeyamas__texto__titulo__p{        
-        font-size: 2em;
-        }
+      }
     
     .foto2{
         margin: 10px;     
@@ -157,21 +157,21 @@
         grid-template-columns: 1fr;
         grid-template-rows: repeat (3, 40rem);
         justify-content: center;
-    }
-
-    #principal .cards{
+    .cards{
         text-align: center;      
         justify-content: center;              
-    }   
-        
+        } 
+     }
+
     .bannerhome3__texto{
         font-size: 1.7em;          
-    }
+     }
 
     #testimonios{
         margin-top: 10px;
         margin-bottom: 10px;                     
         }
+    }
 
 @media only screen and (max-width: 768px){
            
@@ -183,6 +183,7 @@
 
     .bannerhome3__texto{
         font-size: 1.6em;       
+        }
     }
    
   @media only screen and (max-width: 576px){
@@ -194,17 +195,15 @@
         
     .bannerhomeyamas{    
         width: auto;       
-        }
-
-    .bannerhomeyamas h1{       
+     h1{       
         font-size: 2.8em;
         padding: 10px;              
-      }
-
-    .bannerhomeyamas h2{
+     h2{
         font-size: 2.8em;
         padding: 10px;   
-      }
+       }
+     }
+   }
             
     .bannerhomeyamas__texto{
         font-size: 1.8em;  
@@ -233,4 +232,4 @@
         margin: 5px; 
         }
     }
-    
+        
