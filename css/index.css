@@ -164,6 +164,7 @@ header .navegacion {
   text-decoration: none;
   color: #fff;
   padding: 7px;
+  margin: 5px;
   font-size: 1.5em;
   border: 1px solid #fff;
   border-radius: 10%; }
@@ -330,7 +331,7 @@ header .navegacion {
     padding: 10px;       
     margin: 10px;  
     text-align: justify;
-    width: 340px;
+    width: 350px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -509,61 +510,51 @@ header .navegacion {
       padding: 20px;       
       margin: 10px;  
       text-align: center;
-      width: auto;     
-      }
+      max-width: 300px; }
 
  .bannerhome2__texto{
       font-size: 1.8em;   
-      padding: 10px;  
-      }
+      padding: 10px; }
 
  .bannerhome2__texto__button{   
       padding: 10px;        
       margin: 8px;       
-      width: 100%; 
-      }
+      width: 100%; }
 
   #seccion2{
       margin: 10px;        
-      padding: 10px 35px;      
-      }
+      padding: 10px 35px; }
           
   #seccion3{
       margin-top: 30px;
-      margin-bottom: 30px;  
-      }
+      margin-bottom: 30px; }
      
  .bannerhome3{
       padding: 15px;    
       margin: 15px;
       width: auto;
-      justify-content: center;    
-      }     
+      justify-content: center; }     
   
  .foto2{
       margin: auto;       
       justify-content: center;
       width: auto; 
-      align-items: center;       
-      }
+      align-items: center; }
  
   #seccion4{
       margin: 15px;
       padding: 15px;
       text-align: center;
-      justify-content: center;
-      }   
+      justify-content: center; }   
       
  .bannerseccion4__texto{
       font-size: 2em;      
-      padding: 10px;  
-      }
+      padding: 10px; }
 
  .textofrases{
       font-size: 2.2em; 
       padding: 40px 80px;
-      margin: 10px;           
-      }
+      margin: 10px;  }
       
   #seccion5{       
       width: auto;    
@@ -572,19 +563,16 @@ header .navegacion {
       }
 
   .bannerhome5{
-      padding: 10px;          
-      } 
+      padding: 10px; } 
   
   .bannerhome5 h2{
       font-size: 3em;
-      width: 80%;        
-  }
+      width: 80%;  }
   
   .bannerhome5__texto{
       font-size: 2em;        
       justify-content: center;
-      padding: 10px;          
-      }
+      padding: 10px; }
               
   .bannerhome5__texto__button{ 
       padding: 10px;        
@@ -629,9 +617,11 @@ header .navegacion {
   .botoneshome1__texto__button{     
       font-size: 1.8em; }
   .bannerhome2{ 
-      padding: 10px; }
+      padding: 8px; 
+      max-width: 200px;}
   .bannerhome2__texto{
-    margin: 5px;  }
+    margin: 5px;  
+    font-size: 1.8em;}
   .bannerhome2__texto__button{     
       font-size: 1.6em;
       padding: 15px;        
@@ -688,7 +678,23 @@ header .navegacion {
       width: auto; }
   .bannerhome3__texto{
       font-size: 1.6em; } }
-    
+  
+  @media only screen and (max-width: 576px){  
+      .bannerhome2{  
+        padding: 20px;       
+        margin: auto;  
+        text-align: center;
+        max-width: 350px; }
+  
+   .bannerhome2__texto{
+        font-size: 1.8em;   
+        padding: 10px; }
+  
+   .bannerhome2__texto__button{   
+        padding: 10px;        
+        margin: 8px;       
+        width: 100%; }}
+  
 /*pages*/
 #seccionyamas {
   background-color: #f69977;
@@ -993,7 +999,6 @@ main .principal {
   width: 100%;
   flex-wrap: wrap;
   background-color: transparent;
-  background-size: cover;
   background-image: url("../public/bannercapafinal.jpg");
   background-attachment: fixed; }
 
@@ -1083,7 +1088,9 @@ main .principal {
     font-size: 2.4em; }
   .bannercapacitacion {
     height: 50vh;
-    background-image: url("../public/bannercapfinal.jpg") no-repeat center center; } }
+    background-image: url("../public/slider3.jpg"); 
+    background-attachment: scroll;
+    background-repeat: no-repeat;} }
 
 #seccionserv {
   background-color: #f69977;
@@ -1348,19 +1355,27 @@ main {
   justify-content: center;
   align-items: center;
   padding: 10px;
-  width: 50%;
+  width: 50%;  
+  font-family: "Lato", sans-serif;
   text-align: center; }
 
-.form-group h3 {
+.bannercontacto h3 {
   font-size: 2.2em;
   margin: 0 10px; }
 
+.bannercontacto p{
+  font-size: 1.6em;
+  text-align: left;
+  color: #565658;
+  padding-left: 8px;
+  padding-top: 5px;
+}
+
 form {
-  padding: 10px;
-  margin: 30px;
-  line-height: 2em;
-  justify-content: right;
-  font-family: "Lato", sans-serif; }
+  padding: 5px;
+  margin: 5px;
+  line-height: 1.5em;
+  justify-content: right;}
 
 input {
   border-radius: 10px;
@@ -1368,23 +1383,17 @@ input {
   padding: 10px;
   width: 100%;
   background-color: #fafafa;
-  font-size: 1.8em;
-  color: #1c1c1c; }
+  font-size: 1.6em;
+  color: #565658; }
 
 textarea {
   border-radius: 10px;
   margin: 7px;
   padding: 10px;
-  font-family: "Lato", sans-serif;
   background-color: #fafafa;
   width: 100%;
-  font-size: 1.8em;
-  color: #1c1c1c; }
-
-#send {
-  font-family: fontp;
-  font-size: 1.8em;
-  color: #1c1c1c; }
+  font-size: 1.6em;
+  color: #565658; }
 
 .foto4 {
   margin: 10px;
@@ -1472,9 +1481,10 @@ textarea {
         .bannercontacto h3 {
           font-size: 2.2em;
           width: 50%;}
+          .bannercontacto p{
+            text-align: center; }
           .bannerservicios__texto{
-            font-size:1.8em;
-          } 
+            font-size:1.8em;  } 
   form {
     padding: 10px;
     margin: 20px; }
@@ -1499,6 +1509,10 @@ textarea {
 
 .bannercontacto h2{
     font-size: 2.8em;  }
+
+.bannercontacto p{
+  text-align: center;
+}
 
 .form-group h3{
     font-size: 2em;   
