@@ -680,7 +680,8 @@ header .navegacion {
       font-size: 1.6em; } }
   
   @media only screen and (max-width: 576px){  
-      .bannerhome2{  
+   
+    .bannerhome2{  
         padding: 20px;       
         margin: auto;  
         text-align: center;
@@ -709,9 +710,12 @@ header .navegacion {
   width: 100%; }
 #seccion6 {
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   padding: 10px;
-  margin: 20px; }
+  margin-top: 30px;
+  margin-bottom: 10px; }
 .bannerhomeyamas {
   display: flex;
   flex-wrap: wrap;
@@ -848,7 +852,7 @@ header .navegacion {
         padding: 10px; }
   .bannerhomeyamas__texto {
     font-size: 1.8em;
-    text-align: justify;
+    text-align: center;
     justify-content: center;
     padding: 10px;
     margin: 10px; }
